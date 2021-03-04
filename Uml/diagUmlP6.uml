@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.DATABASE:Bdd-p6-reworkSpringData</OriginalElement>
+  <nodes>
+    <node x="5.5" y="860.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.longueur</node>
+    <node x="377.5" y="259.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.topo</node>
+    <node x="310.125" y="0.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur</node>
+    <node x="183.00000000000003" y="474.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.commentaire</node>
+    <node x="0.0" y="689.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.voie</node>
+    <node x="0.0" y="485.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.secteurs</node>
+    <node x="396.0" y="452.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.reservation</node>
+    <node x="33.25" y="259.0">0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.site</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.site" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur">
+      <point x="0.0" y="-71.5" />
+      <point x="129.75" y="229.0" />
+      <point x="332.0" y="229.0" />
+      <point x="-65.625" y="104.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.commentaire" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur">
+      <point x="48.25" y="-71.5" />
+      <point x="327.75" y="239.0" />
+      <point x="375.75" y="239.0" />
+      <point x="-21.875" y="104.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.topo" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur">
+      <point x="0.0" y="-71.5" />
+      <point x="459.0" y="239.0" />
+      <point x="419.5" y="239.0" />
+      <point x="21.875" y="104.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.secteurs" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.site">
+      <point x="0.0" y="-60.5" />
+      <point x="-48.25" y="71.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.reservation" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.topo">
+      <point x="-54.5" y="-93.5" />
+      <point x="450.5" y="427.0" />
+      <point x="459.0" y="427.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.voie" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.secteurs">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.reservation" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur">
+      <point x="54.49999999999997" y="-93.5" />
+      <point x="559.5" y="427.0" />
+      <point x="551.0" y="427.0" />
+      <point x="551.0" y="229.0" />
+      <point x="463.25" y="229.0" />
+      <point x="65.625" y="104.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.commentaire" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.site">
+      <point x="-48.25" y="-71.5" />
+      <point x="231.25000000000003" y="427.0" />
+      <point x="178.0" y="427.0" />
+      <point x="48.25" y="71.5" />
+    </edge>
+    <edge source="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.longueur" target="0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.voie">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.818084066471163" x="211.4442439190455" y="313.9275899151632" />
+  <SelectedNodes>
+    <node>0b9ce41d-7b3d-4087-9a7b-5bde6a5f52d7.TABLE:Bdd-p6-reworkSpringData.public.utilisateur</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
