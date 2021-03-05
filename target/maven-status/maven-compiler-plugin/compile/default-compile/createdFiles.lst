@@ -1,6 +1,0 @@
-com\arnaud\envTestspringData\Main.class
-com\arnaud\envTestspringData\WebConfig.class
-com\arnaud\envTestspringData\repository\UtilisateurRepository.class
-com\arnaud\envTestspringData\service\UtilisateurServices.class
-com\arnaud\envTestspringData\beans\Utilisateur.class
-com\arnaud\envTestspringData\controlleur\UtilisateurControlleur.class
