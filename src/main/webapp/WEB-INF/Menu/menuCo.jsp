@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a href="/" class="nav-link">Accueil</a>
+                    <a href="/webapp" class="nav-link">Accueil</a>
 
                 <li class="nav-item">
                     <a href="#" class="nav-link">Nous contacter</a>
