@@ -50,7 +50,7 @@ public class ConnectControlleur {
             return "/connectError";
         } else {
 
-            return "/connectok";
+            return "/connectOk";
         }
 
     }

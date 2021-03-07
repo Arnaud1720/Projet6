@@ -8,7 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <h1>test</h1>
     <p> le commentaire a éte supprimé <a href="${pageContext.request.contextPath}/site-detail">retour au detail du site</a> </p>
 </head>
 <body>

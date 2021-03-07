@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Bdd-p6-reworkSpringData@localhost" uuid="35183cc2-c889-43e6-9150-b5d2d6f56c95">
+    <data-source source="LOCAL" name="Bdd-p6-reworkSpringData@localhost" uuid="bbded62e-2b1b-4148-9192-5dfc0f6de6c7">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

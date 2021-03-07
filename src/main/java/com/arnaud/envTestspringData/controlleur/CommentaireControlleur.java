@@ -30,7 +30,6 @@ public class CommentaireControlleur {
      */
     @GetMapping("/sites/{siteId}/commentaire/")
     public String displayFromComment(Model model, @PathVariable int siteId) {
-        System.out.println("dans le Get comment ! ");
         model.addAttribute("commentaire", new Commentaire());
 
         return "commentaire";

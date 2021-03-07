@@ -80,7 +80,7 @@ public class SiteControlleur {
         commentaireService.delete(id);
         return "alldelete/deleteCommentaire";
     }
-    @GetMapping("/site/{id}/update")
+    @PostMapping("/site/{id}/addcommentaire")
     public  String updateCommentaire(@PathVariable int id){
       Commentaire commentaire =  commentaireService.findById(id);
         commentaireService.create(commentaire);

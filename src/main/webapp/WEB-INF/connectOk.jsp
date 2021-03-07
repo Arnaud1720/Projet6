@@ -36,10 +36,7 @@
             <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="/account/mestopos" title="Lien 2">Mes topos</a></li>
-            <li><a href="${pageContext.request.contextPath}/reservation" title="Lien 3">Mes reservation</a></li>
-            <li><a href="${pageContext.request.contextPath}/add-site">partager des information sur un site
-                d'escalade</a></li>
+            <li><a href="${pageContext.request.contextPath}/account/mestopos" title="Lien 2">Mes topos</a></li>
         </ul>
     </div>
 </nav>

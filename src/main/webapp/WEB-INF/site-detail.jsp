@@ -72,12 +72,9 @@
             <td>${listCommentaire.commentaire}</td>
             <td>${listCommentaire.utilisateur.pseudo}</td>
 
-            <c:if test="${sessionScope.pseudo!='adm_test'}">
-                <td><a type="button"  class="btn btn-primary btn-sm disabled ">supprimer un commentaire</a></td>
-            </c:if>
-            <c:if test="${sessionScope.pseudo=='adm_test'}">
-                <td><a type="button" href="/site/${listCommentaire.id}/alldelete/deleteCommentaire" class="btn btn-primary btn-sm">supprimer un commentaire</a></td>
-            </c:if>
+            <td><a type="button" href="/site/${listCommentaire.id}/alldelete/deleteCommentaire" class="btn btn-primary btn-sm">supprimer un commentaire</a></td>
+            <td><a type="button" href="/site/${listCommentaire.id}/add" class="btn btn-primary btn-sm">modifier un commentaire</a></td>
+
         </tr>
     </c:forEach>
 

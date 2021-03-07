@@ -32,9 +32,6 @@
         <td>${listSite.adresse}</td>
         <td>${listSite.descriptionSpot}</td>
         <td><a href="/site/${listSite.id}/">ici</a></td>
-        <td><a href="/site/${listSite.id}//alldelete/delete" type="button" class="btn btn-primary btn-sm">supprimer un site</a></td>
-        <c:if test="${sessionScope.pseudo=='adm_test'}">
-        </c:if>
         <c:if test="${listSite.officiel==false}">
             <td><a href="${pageContext.request.contextPath}/site/${listSite.id}/tag?officiel=true">tagger ce site</a></td>
         </c:if>
