@@ -5,7 +5,7 @@ Pour déployer l'application vous devez :
 
 - Une fois getBash téléchargé, cliquez sur le répertoire "Arnaud1720
   /
-  Projet-6-Etat-Final"
+  Projet6"
 
 - Ensuite cliquez sur « code » en haut à droite de l'écran et copier-collé le lien "https://github.com/Arnaud1720/Projet6.git"
 
