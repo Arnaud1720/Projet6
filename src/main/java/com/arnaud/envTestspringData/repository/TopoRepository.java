@@ -17,7 +17,7 @@ public interface TopoRepository extends JpaRepository<Topo,Integer> {
 
 
 
-    @Query("select t from topo t where t.available=true")
+    @Query("select t from topo t where t.available=false ")
     List<Topo> findAllByAvailable();
 
 

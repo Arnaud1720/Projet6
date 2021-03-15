@@ -1014,6 +1014,7 @@ UC/10
     </table>
     <table id="39" parent="19" name="utilisateur">
       <ObjectId>18921</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>Admin</Owner>
       <StateNumber>1963</StateNumber>
     </table>

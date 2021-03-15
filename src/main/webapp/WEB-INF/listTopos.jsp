@@ -37,7 +37,6 @@
                 <td>${topo.description}</td>
                 <td>${topo.dateCreation}</td>
                 <td>${topo.utilisateur.pseudo}</td>
-                <td>${topo.available}</td>
                 <td><a href="/book/${topo.id}/booking">réservé</a></td>
                 <c:if test="${topo.available==false}">
                     <td><a href="${pageContext.request.contextPath}/topo/${topo.id}/disponible?available=true">rendre disponible</a></td>

@@ -72,8 +72,11 @@
             <td>${listCommentaire.commentaire}</td>
             <td>${listCommentaire.utilisateur.pseudo}</td>
 
-            <td><a type="button" href="/site/${listCommentaire.id}/alldelete/deleteCommentaire" class="btn btn-primary btn-sm">supprimer un commentaire</a></td>
-            <td><a type="button" href="/site/${listCommentaire.id}/add" class="btn btn-primary btn-sm">modifier un commentaire</a></td>
+            <c:if test="${listCommentaire.utilisateur.membreAsso==true}">
+                <td><a type="button" href="/site/${listCommentaire.id}/alldelete/deleteCommentaire" class="btn btn-primary btn-sm">supprimer un commentaire</a></td>
+                <td><a type="button" href="/site/${listCommentaire.id}/add" class="btn btn-primary btn-sm">modifier un commentaire</a></td>
+
+            </c:if>
 
         </tr>
     </c:forEach>

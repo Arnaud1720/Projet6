@@ -11,8 +11,12 @@ import java.util.List;
     @Repository
     public interface SiteRepository extends JpaRepository<Site,Integer> {
 
-        @Query("select t from site t where lower(t.nom) like %:param1%")
-        List<Site> findByNom(@Param(value = "param1")String param1);
+        @Query("select t from site t where lower(t.nom) like %:param1% or lower(t.adresse) like %:param2% ")
+        List<Site> findByNomOrAdresse(@Param(value = "param1")String param1,@Param(value = "param2")String param2);
+
+
+
+
 
     }
 

@@ -18,6 +18,7 @@ public class Utilisateur {
     private String pseudo;
     @Column(name = "email",unique = true)
     private String email;
+
     @Column(name = "password")
     private String password;
     @Column(name = "date_naissance")
@@ -27,7 +28,7 @@ public class Utilisateur {
     private String nom;
     @Column(name = "prenom")
     private String prenom;
-    @Column(name = "membre_asso",columnDefinition = "Boolean")
+    @Column(name = "membre_asso")
     private boolean membreAsso ;
     @OneToMany(mappedBy = "utilisateur")
     private Set<Commentaire> commentaireHashSet= new HashSet<>();

@@ -26,6 +26,9 @@ public class UtilisateurServices {
         return utilisateurRepository.save(utilisateur);
     }
 
+    public Utilisateur save(Utilisateur utilisateur){
+        return utilisateurRepository.save(utilisateur);
+    }
 
     public Utilisateur getConnectUser(String pseudo, String password) {
         Utilisateur utilisateur = utilisateurRepository.findByPseudo(pseudo);

@@ -141,9 +141,10 @@ public class SiteControlleur {
      * @return
      */
     @PostMapping("/site")
-    public String find(String param1, Model model) {
-        List<Site> listSite = siteService.findByNomStartingWith(param1);
+    public String find(String param1,String param2, Model model) {
+        List<Site> listSite = siteService.findByNomOrAdresse(param1,param2);
         model.addAttribute("listSite", listSite);
         return "/site";
     }
+
 }

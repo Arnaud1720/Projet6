@@ -38,6 +38,7 @@
         <thead>
         <tr>
             <th scope="col">nom</th>
+            <th scope="col">nom du topo</th>
             <th scope="col">date de début</th>
             <th scope="col">date de fin</th>
             <th scope="col">message</th>
@@ -53,6 +54,7 @@
 
             <tr>
                 <td> ${booking.utilisateur.pseudo}</td>
+                <td>${booking.topo.nom}</td>
                 <td> ${booking.dateDebut}</td>
                 <td> ${booking.dateFin}</td>
                 <td> ${booking.messageReservation}</td>

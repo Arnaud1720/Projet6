@@ -5,20 +5,6 @@
 
 
 <HTML>
-<%--<style>--%>
-<%--    table {--%>
-<%--        border-collapse: collapse; /* Les bordures du tableau seront collées  */--%>
-<%--    }--%>
-
-<%--    td, th {--%>
-<%--        border: 4px solid black;--%>
-
-<%--    }--%>
-
-<%--    td {--%>
-<%--        color: #a52a2a;--%>
-<%--    }--%>
-<%--</style>--%>
 
 <head>
 
@@ -26,20 +12,13 @@
 
         <label for="param1">Site commencant par</label><br />
         <input type="text" name="param1" id="param1">
+        <br>
+
+        <label for="param1">adresse</label><br />
+        <input type="text" name="param2" id="param1">
         </br>
-<%--        <label for="difficulte_Voie">difficulte voie </label><br/>--%>
-<%--        <select name="difficulte_voie" id="difficulte_Voie">--%>
-<%--            <option value="difficulteVoieD"> Débutant </option>--%>
-<%--            <option value="difficulteVoieI"> Intermédiaire </option>--%>
-<%--            <option value="difficulteVoieC"> Confirmer </option>--%>
-<%--        </select>--%>
-<%--        </br>--%>
-<%--        <label for="nbr_relais"> nombre de relais  </label><br />--%>
-<%--        <select name="nbr_relais" id="nbr_relais">--%>
-<%--            &lt;%&ndash;                <option value="nbr_relais1"> 2 a 5  </option>&ndash;%&gt;--%>
-<%--            <option value="nbr_relais2"> 3 a 7 </option>--%>
-<%--        </select>--%>
-        </br>
+
+
         <input type="submit" name="validez" value="validez">
 
     </form>

@@ -9,5 +9,6 @@ import javax.transaction.Transactional;
 @Repository
 @Transactional
 public interface SecteurRepository extends JpaRepository<Secteur,Integer> {
+
     
 }

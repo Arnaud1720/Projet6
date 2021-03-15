@@ -8,10 +8,10 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a href="/webapp" class="nav-link">Accueil</a>
+                    <a href="/" class="nav-link">Accueil</a>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Nous contacter</a>
+                    <a href="/account/devenirMembre" class="nav-link">devenir membre officiel </a>
                 </li>
                 <li class="nav-item">
                     <a href="/site" class="nav-link">Nos sites</a>

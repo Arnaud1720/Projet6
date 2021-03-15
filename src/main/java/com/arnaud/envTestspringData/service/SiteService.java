@@ -31,13 +31,11 @@ public class SiteService {
        return siteRepository.findById(id).orElse(null);
     }
 
-    public List<Site> findByNomStartingWith(String param1){
+    public List<Site> findByNomOrAdresse(String param1,String param2){
         System.err.println(param1);
-        return siteRepository.findByNom(param1.toLowerCase());
+        System.err.println(param2);
+        return siteRepository.findByNomOrAdresse(param1.toLowerCase(),param2.toLowerCase());
 
-    }
-    public void deleteById(int id){
-        siteRepository.deleteById(id);
     }
 
 }
